@@ -52,7 +52,7 @@
 
 # Arquitetura
 
-<img width="1001" alt="Arquitetura geral" src="">
+<img width="1001" alt="Arquitetura geral" src="https://github.com/TayDias/Architecture_Bot_Automations-Design/blob/d692082b75e3c832cc17acfbd1bb1064ce9407e3/images/arq.png">
 
 <p>A estrutura é centrada no chatbot desenvolvido na plataforma BLiP e na comunicação com o pipeline de leads do módulo de CRM da plataforma Bitrix.</p>
 
@@ -71,7 +71,7 @@
 
 A estrutura é dividida em sub-bots para cada função, de forma a seguir os princípios do SOLID. 
 
-<img width="1001" alt="Arquitetura do bot" src="">
+<img width="1001" alt="Arquitetura do bot" src="https://github.com/TayDias/Architecture_Bot_Automations-Design/blob/d692082b75e3c832cc17acfbd1bb1064ce9407e3/images/arqBlip.png">
 
 <p>Em módulos compostos, como o módulo de "Locação", há o direcionamento para fluxogramas automatizados e para o transbordo humano. Os fluxogramas do módulo de locação são a pesquisa de imóveis com determinadas características, a consulta de garantias aceitas, a consulta de dados do imóvel e o agendamento de visita em dias e horários disponíveis.</p>
 
@@ -91,12 +91,12 @@ A estrutura é dividida em sub-bots para cada função, de forma a seguir os pri
 
 ## Exemplo de relatório personalizado - NPS
 
-<img width="500" alt="Relatório 1 - NPS" src="">
+<img width="500" alt="Relatório 1 - NPS" src="https://github.com/TayDias/Architecture_Bot_Automations-Design/blob/d692082b75e3c832cc17acfbd1bb1064ce9407e3/images/nps.png">
 
 <p>Os dados acima foram retirados de um ambiente de testes de desenvolvimento, logo são resultados de simulações.</p>
 
 
-## Exemplos de registros de Evento por período variável
+## Exemplos de registros de evento por período variável
 
 * Número de novos contatos ativos
 * Número de novos contatos ativos respondidos pelo cliente
