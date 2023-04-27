@@ -11,6 +11,7 @@
   * [Vendas](##Vendas)
 * [Tecnologias](#Tecnologias)
 * [Arquitetura](#Arquitetura)
+* [Modelos de PLN/NLP](#modelos-de-plnnlp)
 * [Métricas](#Métricas)
 * [Referências](#Arquitetura)
 
@@ -82,6 +83,10 @@ A estrutura é dividida em sub-bots para cada função, de forma a seguir os pri
 <p>O Cadastro e o aceite de LGPD são destinados à coleta de informações de forma consentida dos leads captados de forma receptiva (sem o recebimento de HSM).</p>
 
 <p>A efetividade do chatbot e do atendimento é avaliada na estrutura de "Pesquisas de usuário", através de métodos como o NPS.</p>
+
+# Modelos de PLN/NLP
+
+Documentação em progresso...
 
 
 # Métricas
