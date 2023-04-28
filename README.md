@@ -86,7 +86,117 @@ A estrutura é dividida em sub-bots para cada função, de forma a seguir os pri
 
 # Modelos de PLN/NLP
 
-Documentação em progresso...
+<p>A interpretação de decisões e a contextualização de sua situação do usuário é feita com o processamento de linguagem natural (PLN) do IBM Watson a partir de um modelo de intenções e entidades personalizado. A taxa de confiabilidade deve ser igual ou superior a 70%.</p>
+
+## Intenções
+
+<table>
+  <thead>
+    <th>Nome da intenção</th>
+    <th>Etapa ou Fluxograma associado</th>
+  </thead>
+  <body>
+    <tr>
+      <td>afirmacao</td>
+      <td>Etapa: Confirmar a ação oferecida</td>
+    </tr>
+    <tr>
+      <td>agradecimento</td>
+      <td>Etapa: Dar um feedback positivo</td>
+    </tr>
+    <tr>
+      <td>alugar</td>
+      <td>Fluxograma: Menu de Locação</td>
+    </tr>
+    <tr>
+      <td>alugar_com_imovel</td>
+      <td>Fluxograma: Menu de Locação</td>
+    </tr>
+    <tr>
+      <td>anunciar_aluguel</td>
+      <td>Fluxograma: Anunciar para alugar</td>
+    </tr>
+    <tr>
+      <td>atendimento_humano</td>
+      <td>Fluxograma: Transbordo Humano</td>
+    </tr>
+    <tr>
+      <td>finalizacao</td>
+      <td>Etapa: Encerramento conversa</td>
+    </tr>
+    <tr>
+      <td>garantias</td>
+      <td>Fluxograma: Consultar Garantias</td>
+    </tr>
+    <tr>
+      <td>informacao</td>
+      <td>Fluxograma: Consultar Informações</td>
+    </tr>
+    <tr>
+      <td>informacao_imovel</td>
+      <td>Fluxograma: Consultar Informações</td>
+    </tr>
+    <tr>
+      <td>negacao</td>
+      <td>Etapa: Negar a ação oferecida</td>
+    </tr>
+    <tr>
+      <td>insatisfacao</td>
+      <td>Fluxograma: Transbordo Humano</td>
+    </tr>
+    <tr>
+      <td>pesquisar_imoveis</td>
+      <td>Fluxograma: Buscar Imóveis</td>
+    </tr>
+    <tr>
+      <td>processo_locacao</td>
+      <td>Fluxograma: Transbordo Humano</td>
+    </tr>
+    <tr>
+      <td>saudacao</td>
+      <td>Etapa: Iniciar ou retomar interação</td>
+    </tr>
+    <tr>
+      <td>vender</td>
+      <td>Fluxograma: Comprar/Vender</td>
+    </tr>
+    <tr>
+      <td>visita_agendar</td>
+      <td>Fluxograma: Agendar visita</td>
+    </tr>
+    <tr>
+      <td>visita_alterar</td>
+      <td>Fluxograma: Transbordo Humano</td>
+    </tr>
+    <tr>
+      <td>voltar</td>
+      <td>Etapa: Retornar a etapa anterior do processo</td>
+    </tr>
+  </body>
+</table>
+
+# Entidades
+
+<table>
+  <thead>
+    <th>Nome da entidade</th>
+    <th>Associação</th>
+  </thead>
+  <body>
+    <tr>
+      <td>imovel_tipo</td>
+      <td>Utilizada no fluxograma "Buscar Imóveis" para identificar os tipos de imóveis desejados em uma lista fechada.</td>
+    </tr>
+    <tr>
+      <td>imovel_cidade</td>
+      <td>Utilizada no fluxograma "Buscar Imóveis" para identificar a cidade em que o imóvel precisa estar localizado, necessariamente entre as cidades da lista em que o estabelecimento opera.</td>
+    </tr>
+    <tr>
+      <td>imovel_bairros_cidade</td>
+      <td>Utilizada no fluxograma "Buscar Imóveis" para identificar os bairros desejados para o imóvel, dentro da cidade desejada. Precisa estar entre os bairros da lista em que o estabelecimento opera.</td>
+    </tr>
+  </body>
+</table>
 
 
 # Métricas
