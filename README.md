@@ -5,19 +5,34 @@
 
 # Índice:
 
+* [Status do projeto](#status-do-projeto)
+* [Tecnologias](#Tecnologias)
 * [Funcionalidades](#Funcionalidades)
   * [Gerais](##Gerais)
   * [Locação](##Locação)
   * [Vendas](##Vendas)
-* [Tecnologias](#Tecnologias)
 * [Arquitetura](#Arquitetura)
 * [Modelos de PLN/NLP](#modelos-de-plnnlp)
 * [Métricas](#Métricas)
 * [Referências](#Arquitetura)
 
 
-# Funcionalidades
+# Status do projeto
 
+:page_with_curl: Concluído - Em documentação :page_with_curl:
+
+
+# Tecnologias
+
+* [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): Codificação das funções do builder do BLiP
+* [Blip.ai](https://portal.blip.ai/application)
+* [IBMWatson](https://www.ibm.com/br-pt/watson)
+* [Bitrix](https://helpdesk.bitrix24.com.br/open/8830385/)
+* [Integromat](https://www.integromat.com/en/help/docs)
+* [Vista](https://www.vistasoft.com.br/api/)
+
+
+# Funcionalidades
 ## Gerais
 
 * Aceite de LGPD
@@ -39,16 +54,6 @@
 * Pesquisa de Imóveis
 * Pré Agendamento de Visita
 * Anunciar para Venda
-
-
-# Tecnologias
-
-* [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): Codificação das funções do builder do BLiP
-* [Blip.ai](https://portal.blip.ai/application)
-* [IBMWatson](https://www.ibm.com/br-pt/watson)
-* [Bitrix](https://helpdesk.bitrix24.com.br/open/8830385/)
-* [Integromat](https://www.integromat.com/en/help/docs)
-* [Vista](https://www.vistasoft.com.br/api/)
 
 
 # Arquitetura
@@ -83,6 +88,7 @@ A estrutura é dividida em sub-bots para cada função, de forma a seguir os pri
 <p>O Cadastro e o aceite de LGPD são destinados à coleta de informações de forma consentida dos leads captados de forma receptiva (sem o recebimento de HSM).</p>
 
 <p>A efetividade do chatbot e do atendimento é avaliada na estrutura de "Pesquisas de usuário", através de métodos como o NPS.</p>
+
 
 # Modelos de PLN/NLP
 

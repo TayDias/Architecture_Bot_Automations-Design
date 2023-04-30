@@ -1,8 +1,3 @@
-/**
-    * Script que carrega as mensagens de acordo com cada fluxo
-    * Valores default estão presentes mas podem ser sobescritos ;
-    * em resources ou config;
-**/
 function run(params) {
     params = {
         config : `{{config}}`
