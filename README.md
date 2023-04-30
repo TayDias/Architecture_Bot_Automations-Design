@@ -24,7 +24,7 @@
 
 # Tecnologias
 
-* [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): Codificação das funções do builder do BLiP
+* [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 * [Blip.ai](https://portal.blip.ai/application)
 * [IBMWatson](https://www.ibm.com/br-pt/watson)
 * [Bitrix](https://helpdesk.bitrix24.com.br/open/8830385/)
