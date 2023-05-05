@@ -29,7 +29,6 @@
 * [IBMWatson](https://www.ibm.com/br-pt/watson)
 * [Bitrix](https://helpdesk.bitrix24.com.br/open/8830385/)
 * [Integromat](https://www.integromat.com/en/help/docs)
-* [Vista](https://www.vistasoft.com.br/api/)
 
 
 # Funcionalidades
