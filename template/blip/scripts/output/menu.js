@@ -49,19 +49,13 @@ function run(params) {
     }
 }
 
+function buildMenu(menuTitle, list) {
+    let menu = `{{config@emoji.main}} ${menuTitle}\n\n`
 
-function buildDynamicWhatsAppMenu(menuTitle, list) {
-    let menu = `{"recipient_type": "individual",
-    "type": "interactive","interactive": {"type": "list","body": {"text": "${menuTitle}"},"action": {"button": "Lista de segmentos","sections": [{"title": "Segmentos","rows": [`
-
-    list.segmentos.forEach((element, index) => {
-        menu += `{  "id": "${index + 1}",
-                "title": "{{config@markup.ni}}${index + 1}.{{config@markup.nf}} ${element.option}",
-                "description":""
-            },`
+    list.forEach((element, index) => {
+        menu = menu + `${element.index}. ${element.option}\n`
     })
-
-    return menu += `]}]}}}`
+    return menu
 }
 
 function buildChatMenu(menuTitle, list) {
@@ -78,13 +72,18 @@ function buildChatMenu(menuTitle, list) {
     return menu + `]}`
 }
 
-function buildMenu(menuTitle, list) {
-    let menu = `{{config@emoji.main}} ${menuTitle}\n\n`
+function buildDynamicWhatsAppMenu(menuTitle, list) {
+    let menu = `{"recipient_type": "individual",
+    "type": "interactive","interactive": {"type": "list","body": {"text": "${menuTitle}"},"action": {"button": "Lista de segmentos","sections": [{"title": "Segmentos","rows": [`
 
-    list.forEach((element, index) => {
-        menu = menu + `${element.index}. ${element.option}\n`
+    list.segmentos.forEach((element, index) => {
+        menu += `{  "id": "${index + 1}",
+                "title": "{{config@markup.ni}}${index + 1}.{{config@markup.nf}} ${element.option}",
+                "description":""
+            },`
     })
-    return menu
+
+    return menu += `]}]}}}`
 }
 
 function buildWhatsAppMenu(menuTitle, list)

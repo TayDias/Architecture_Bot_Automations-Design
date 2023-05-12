@@ -4,7 +4,9 @@
 
 ## Function run
 
-<p>A função run é, por padrão do BLiP, o ponto de início da execução dos comandos contidos no script. Nesse script o objetivo é montar um objeto com as variáveis de base para funcionamento do fluxograma em diferentes canais e ambientes.</p>
+<p>A função run é, por padrão do BLiP, o ponto de início da execução dos comandos contidos no script.</p>
+
+<p>Nesse script o objetivo é montar um objeto com as variáveis de base para funcionamento do fluxograma em diferentes canais e ambientes.</p>
 
 
 ## Function getUrls

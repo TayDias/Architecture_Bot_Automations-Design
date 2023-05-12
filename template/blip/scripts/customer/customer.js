@@ -22,6 +22,11 @@ function run()
             main:  {
                 full:  (config.channel != "WhatsApp" ? "" : "{{phoneNumber}}")
             }
+        },
+        lgpd : {
+            filled : false,
+            required : true,
+            answer : false
         }
     }
     
