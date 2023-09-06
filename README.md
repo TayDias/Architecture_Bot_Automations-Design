@@ -75,7 +75,7 @@
 
 A estrutura é dividida em sub-bots para cada função, de forma a seguir os princípios do SOLID. 
 
-<img width="1001" alt="Arquitetura do bot" src="hhttps://github.com/TayDias/Architecture_Design-BLiP_Bot-Automations/blob/92d33811690f56ee5d2c2976a64950b61742ce41/images/arqBlip.png">
+<img width="1001" alt="Arquitetura do bot" src="https://github.com/TayDias/Architecture_Design-BLiP_Bot-Automations/blob/92d33811690f56ee5d2c2976a64950b61742ce41/images/arqBlip.png">
 
 <p>Em módulos compostos, como o módulo de "Aluguel", há o direcionamento para fluxogramas automatizados e para o transbordo humano. Os fluxogramas do módulo de aluguel são a pesquisa de produtos com determinadas características, a consulta de garantias aceitas, a consulta de dados do produto e o agendamento de visita em dias e horários disponíveis.</p>
 
