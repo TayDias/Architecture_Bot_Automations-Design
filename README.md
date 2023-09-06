@@ -1,6 +1,6 @@
-<h1 align="center">Arquitetura Bot/Automações - Locação e venda de imóveis</h1>
+<h1 align="center">Arquitetura Bot/Automações - Captação de leads de aluguel e venda de imóveis</h1>
 
-<p>Modelagem e ilustração de automação centrada em um chatbot, voltada para captação de leads de locação e de venda de imóveis.</p>
+<p>Modelagem e ilustração de automação centrada na operação de em um chatbot integrado com um pipeline de uma ferramenta CRM, voltada para captação de leads.</p>
 
 
 # Índice:
